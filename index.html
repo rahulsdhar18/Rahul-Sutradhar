@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="The portfolio of Rahul Sutradhar — a personal space for selected work, ideas, and future projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rahul Sutradhar — Selected Work & Ideas">
+  <meta property="og:description" content="A portfolio built around ideas, process, and work in progress.">
+  <meta property="og:image" content="assets/og-preview.svg">
+  <title>Rahul Sutradhar — Selected Work & Ideas</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="content.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-grain" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Rahul Sutradhar, home">
+      <span class="brand-mark">RS<span class="brand-dot">.</span></span>
+      <span class="brand-caption">PERSONAL ARCHIVE<br><span>PORTFOLIO / 2026</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="menu-toggle-label">MENU</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <a href="#home" class="nav-link is-active">Home <span>01</span></a>
+      <a href="#about" class="nav-link">About <span>02</span></a>
+      <a href="#work" class="nav-link">Work <span>03</span></a>
+      <a href="#contact" class="nav-link nav-contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-topline mono"><span>INDEPENDENT PERSONAL SPACE</span><span class="status"><i></i> PORTFOLIO IN PROGRESS</span></div>
+      <div class="hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">A DIGITAL IDENTITY / IN PROGRESS</p>
+          <h1 id="hero-title" class="hero-title"><span class="title-line">RAHUL</span><span class="title-line title-line-outline">SUTRADHAR<span class="title-period">.</span></span></h1>
+          <div class="hero-bottom reveal">
+            <p class="hero-description">A place for work worth sharing, ideas worth exploring, and the next chapter taking shape.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work"><span>Explore selected work</span><span class="button-arrow" aria-hidden="true">↘</span></a>
+              <a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </div>
+        <aside class="hero-art reveal" aria-label="Profile photo of Rahul Sutradhar">
+          <div class="art-coordinate mono">RS—01 / PROFILE</div>
+          <div class="art-frame">
+            <img class="art-profile-image" src="profile%20img.jpeg" alt="Portrait of Rahul Sutradhar">
+            <div class="art-grid" aria-hidden="true"></div>
+            <div class="art-ring art-ring-one" aria-hidden="true"></div>
+            <div class="art-ring art-ring-two" aria-hidden="true"></div>
+            <div class="art-cross" aria-hidden="true">+</div>
+            <div class="art-vertical mono">RAHUL SUTRADHAR</div>
+            <span class="art-corner art-corner-tl" aria-hidden="true"></span><span class="art-corner art-corner-br" aria-hidden="true"></span>
+          </div>
+          <div class="art-caption mono"><span>FIG. 01</span><span>PROFILE / 2026</span></div>
+          <div class="art-mode-controls" aria-label="Change abstract artwork mode">
+            <span class="mono controls-label">VIEW /</span>
+            <button type="button" class="mode-button is-selected" data-art-mode="grid" aria-pressed="true">GRID</button>
+            <button type="button" class="mode-button" data-art-mode="form" aria-pressed="false">FORM</button>
+            <button type="button" class="mode-button" data-art-mode="signal" aria-pressed="false">SIGNAL</button>
+          </div>
+        </aside>
+      </div>
+      <div class="hero-meta mono"><span>BUILT TO EVOLVE</span><span>SCROLL TO EXPLORE <span class="scroll-pulse" aria-hidden="true">↓</span></span><span>RS / PORTFOLIO SYSTEM</span></div>
+    </section>
+
+    <section class="manifesto section-shell section-light" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal"><span class="section-index mono">02 — ABOUT</span><span class="section-rule"></span><span class="mono section-note">THE PERSON BEHIND THE WORK</span></div>
+      <div class="manifesto-layout">
+        <h2 id="about-title" class="manifesto-title reveal">Built on<br><em>curiosity.</em><br>Made to <span>move.</span></h2>
+        <div class="manifesto-content reveal">
+          <p class="manifesto-lead">Every good portfolio starts with a point of view. This one is designed to make Rahul's story, work, and direction clear—without adding noise.</p>
+          <div class="thin-rule"></div>
+          <p class="body-copy" id="about-copy">Personal background, interests, and professional direction will live here. The details are intentionally left open until Rahul's real information is added.</p>
+          <div class="about-quickfacts" id="quickfacts" hidden></div>
+          <a href="#contact" class="inline-arrow-link">MAKE AN INTRODUCTION <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="manifesto-footer mono"><span>NO FICTION. JUST THE REAL STORY.</span><span>EDITABLE CONTENT / content.js</span></div>
+    </section>
+
+    <section class="work section-shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal"><span class="section-index mono">03 — SELECTED WORK</span><span class="section-rule"></span><span class="mono section-note">IDEAS INTO OUTCOMES</span></div>
+      <div class="work-intro reveal">
+        <h2 id="work-title" class="section-title">The work<br><span>speaks.</span></h2>
+        <p class="work-intro-copy">A considered collection of things made, shaped, or explored. Each project gets room to show not just the result, but the thinking behind it.</p>
+      </div>
+      <div id="projects-container" class="projects-container" aria-live="polite">
+        <div class="empty-work reveal" id="empty-work">
+          <div class="empty-work-visual" aria-hidden="true">
+            <div class="empty-visual-top mono"><span>ARCHIVE / 000</span><span>AWAITING INPUT</span></div>
+            <div class="empty-cross empty-cross-a">+</div><div class="empty-cross empty-cross-b">+</div>
+            <div class="empty-visual-letters">WORK<br><span>IN</span><br>PROGRESS</div>
+            <div class="empty-visual-bottom mono"><span>YOUR NEXT CASE STUDY</span><span>↗</span></div>
+          </div>
+          <div class="empty-work-copy">
+            <p class="eyebrow mono">THE ARCHIVE IS READY</p>
+            <h3>No projects added.<br><span>Yet.</span></h3>
+            <p>Once real projects are available, they'll appear here with their own visuals, context, tools, and live links. No invented case studies or fake repositories.</p>
+            <a class="text-link" href="#contact">Have something to share? <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="work-footer mono"><span>PROJECT INDEX / <b id="project-count">00</b></span><span>CONCEPT STUDIES / NOT CLIENT WORK</span></div>
+    </section>
+
+    <section class="capabilities section-shell section-muted" id="expertise" hidden aria-labelledby="expertise-title">
+      <div class="section-heading"><span class="section-index mono">04 — EXPERTISE</span><span class="section-rule"></span><span class="mono section-note">TOOLS / METHODS / PRACTICE</span></div>
+      <div class="capabilities-layout"><h2 id="expertise-title" class="section-title">What I bring<br><span>to the table.</span></h2><div id="skills-list" class="skills-list"></div></div>
+    </section>
+
+    <section class="timeline section-shell" id="journey" hidden aria-labelledby="journey-title">
+      <div class="section-heading"><span class="section-index mono">05 — THE JOURNEY</span><span class="section-rule"></span><span class="mono section-note">MILESTONES & EXPERIENCE</span></div>
+      <div class="timeline-layout"><h2 id="journey-title" class="section-title">The path<br><span>so far.</span></h2><div id="timeline-list" class="timeline-list"></div></div>
+    </section>
+
+    <section class="contact section-shell" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading reveal"><span class="section-index mono">04 — CONTACT</span><span class="section-rule"></span><span class="mono section-note">GOOD THINGS START SOMEWHERE</span></div>
+      <div class="contact-main reveal">
+        <p class="eyebrow mono">HAVE AN IDEA IN MIND?</p>
+        <h2 id="contact-title">Let's make<br><span>something</span><br>matter<span class="contact-dot">.</span></h2>
+        <div class="contact-side"><p>For a collaboration, an opportunity, or a conversation about the work—this is the place to start.</p><div id="contact-links" class="contact-links"></div><p class="contact-hint" id="contact-hint">Add a verified email or social profile in <code>content.js</code> to activate direct contact links.</p></div>
+      </div>
+      <div class="contact-bottom mono"><span>RAHUL SUTRADHAR / PERSONAL PORTFOLIO</span><a href="#top">BACK TO TOP ↑</a></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <a class="footer-mark" href="#home">RS<span>.</span></a>
+    <p class="mono">DESIGNED TO HOLD A STORY.<br>BUILT TO KEEP MOVING.</p>
+    <p class="mono footer-copyright">© <span id="copyright-year">2026</span> RAHUL SUTRADHAR</p>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
